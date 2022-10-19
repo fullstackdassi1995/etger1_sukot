@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  
+    <title>Document</title>
+</head>
+<body><script>
+// קלוט שני מספריים טבעיים ואת המחלק המשותף המקסימלי הגדול ביותר
+x = parseInt(prompt(`enter number`))
+y = parseInt(prompt(`enter number`))
+
+for (mone = y ; mone >=1 ; mone--){
+    if (x % mone ==0 && y % mone == 0){break;}
+}
+document.write(mone)
+
+</script>
+    
+</body>
+</html>

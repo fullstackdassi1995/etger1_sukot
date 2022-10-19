@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  
+    <title>Document</title>
+</head>
+<body><script>
+// קלוט מספר והצג את פירוקו לגורמים ראשוניים
+x = parseInt(prompt(`entar number`))
+document.write(`${x}<br>`)
+for (mon = x - 1 ; mon >= 2 ; mon--){
+
+    if (x % mon == 0){
+        mis = 0
+        for (mone = mon -1 ; mone >= 2; mone--){
+            if (mon % mone == 0){mis++ }
+            }
+        if (mis == 0){document.write(` ${mon}<br/>`)
+        } 
+}
+       
+        }
+ document.write(`1`)  
+
+
+</script>
+    
+</body>
+</html>
